@@ -2,9 +2,9 @@ import NavBar from '../Components/NavBar';
 import CarouselComp from '../Components/Carousel';
 import CardComp from '../Components/Card';
 import '../App.css';
-import PR from '../assets/PR.jpg';
-import Programming from '../assets/Programming.jpg';
-import Technic from '../assets/Technic.jpg';
+import PR from '../assets/PR.png';
+import Programming from '../assets/Programming.png';
+import Technic from '../assets/Technic.png';
 import Footer from '../Components/Footer';
 
 export default function HomePage() {

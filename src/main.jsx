@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import HomePage from './Pages/HomePage'
+import HomePage from './Pages/HomePage' 
+//TODO: Finish responsiveness for HomePage
+// import Competitions from './Pages/Competitions'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 

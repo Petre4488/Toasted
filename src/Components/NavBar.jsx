@@ -8,13 +8,14 @@ import logo from '../assets/logo.png';
 export default function NavBar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary rounded">
-      <Container fluid>
+      <Container>
         {/* Left side: Toasted Minds */}
         <Navbar.Brand href="#home" className='d-flex align-items-center'> 
             <img src={logo} alt="Toasted Minds" width="50" height="50" />
             Toasted Minds
         </Navbar.Brand>
         {/* Right side: Nav items */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto"> {/* Apply ms-auto to the Nav */}
             <Nav.Link href="#home">Home</Nav.Link>
