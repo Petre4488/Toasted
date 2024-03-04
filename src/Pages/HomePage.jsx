@@ -1,4 +1,3 @@
-import NavBar from '../Components/NavBar';
 import CarouselComp from '../Components/Carousel';
 import CardComp from '../Components/Card';
 import '../App.css';
@@ -11,7 +10,6 @@ export default function HomePage() {
 
   return (
     <div>
-      <NavBar />
       <h1 className='m-3 display-2'>Toasted Minds Team</h1>
       <CarouselComp />
       <div className='CardsContainer d-flex flex-row p-4 justify-content-center'>
