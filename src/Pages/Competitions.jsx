@@ -1,12 +1,12 @@
 import MapComponent from "../Components/MapComponent";
-import '../Components/compStyle.css';
+import '../App.css';
 
 export default function Competitions(){
     return (
-        <div className="Container bg-secondary rounded m-3">
-            <h1 className="d-flex justify-content-center pt-2">Competitions</h1>
-            <div className="map m-3">
-                <MapComponent />
+        <div className="Container mapContainer bg-secondary rounded ">
+            <h1 className="d-flex justify-content-center mt-2">Competitions</h1>
+            <div className="mapComponent">
+                <MapComponent className='mapComp' />
             </div>
         </div>
     );

@@ -6,7 +6,7 @@
 
 .map{
     height: 80vh   ;
-    width: 80vw;
+    width: 95%;
 }
 
 .leaflet-popup-content-wrapper, .leaflet-popup-tip {

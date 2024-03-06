@@ -37,7 +37,7 @@ export default function MapComponent() {
     return( 
         <>
             {/*Set the map container with the center and zoom level; added classes with bootstrap for width and height*/}   
-            <MapContainer center={[45.9432, 24.9668]} zoom={7} className='w-100 h-100'>
+            <MapContainer center={[45.9432, 24.9668]} zoom={7} className='w-100 rounded h-100'>
             {/*Set the tile layer for the map with the url from openstreetmap and the attribution for the map source*/}
             <TileLayer
                     attribution='&copy; <a href="https://www.jawg.io">Jawg</a> | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
