@@ -12,7 +12,7 @@ export default function HomePage() {
     <div>
       <h1 className='m-3 display-2'>Toasted Minds Team</h1>
       <CarouselComp />
-      <div className='CardsContainer d-flex flex-row p-4 justify-content-center'>
+      <div className='cardsContainer d-flex p-4 justify-content-center'>
         <CardComp className='card' department="Programming" depImage={Programming} depDescription='Aici programam' />
         <CardComp className='card' department="Technic" depImage={Technic} depDescription='Aici construim' />
         <CardComp className='card' department="PR"  depImage={PR} depDescription='Aici postam' />

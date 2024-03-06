@@ -38,3 +38,13 @@
  border-radius: 10px;
 }
 
+.cardsContainer{
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .cardsContainer{
+    flex-direction: column;
+  }
+  
+}
