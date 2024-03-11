@@ -4,7 +4,6 @@ import '../App.css';
 import PR from '../assets/PR.png';
 import Programming from '../assets/Programming.png';
 import Technic from '../assets/Technic.png';
-import Footer from '../Components/Footer';
 
 export default function HomePage() {
 
@@ -17,7 +16,6 @@ export default function HomePage() {
         <CardComp className='card' department="Technic" depImage={Technic} depDescription='Aici construim' />
         <CardComp className='card' department="PR"  depImage={PR} depDescription='Aici postam' />
       </div>
-      <Footer />
     </div>
   );
 

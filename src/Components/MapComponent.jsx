@@ -4,7 +4,6 @@ import { Icon } from "leaflet";
 import iconMap from "../assets/marker.png";
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import './compStyle.css'
-import PropTypes from 'prop-types';
 import cardArad from '../assets/cardArad.png';
 
 export default function MapComponent() {
@@ -62,6 +61,3 @@ export default function MapComponent() {
         
 }
 
-MapComponent.propTypes = {
-    mapCard: PropTypes.string.isRequired,
-};

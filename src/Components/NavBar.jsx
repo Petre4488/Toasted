@@ -5,12 +5,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './compStyle.css';
 import logo from '../assets/logo.png';
 import { LinkContainer } from 'react-router-bootstrap';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 // We ll use link tag to link to the different pages of the website without sending requests to the server.
 // This will make the website faster and more responsive.
 
 export default function NavBar() {
+  gsap.registerPlugin(ScrollTrigger);
   return (
-    <Navbar expand="lg" className="bg-body-tertiary rounded">
+    <Navbar expand="lg" className="bg-body-tertiary rounded fixed-top shadow NavBarComp">
       <Container>
         {/* Left side: Toasted Minds */}
         <Navbar.Brand href="/" className='d-flex align-items-center'> 

@@ -69,16 +69,12 @@ button:focus-visible {
 }
 
 /* Navbar Styles  */
-.navbar {
-  background-color: #f0f0f0; /* Example Color */
-  padding: 15px;
-  position: fixed; /* Keep it fixed at the top */
-  top: 0;
-  width: 100%; 
-}
+
 
 /* Space to offset content below the navbar */
 .pageContent {
   margin-top: 60px; /* Adjust this value according to your navbar height */
 }
 
+
+/* Footer */

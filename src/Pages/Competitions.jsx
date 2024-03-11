@@ -6,7 +6,7 @@ export default function Competitions(){
         <div className="Container mapContainer bg-secondary rounded ">
             <h1 className="d-flex justify-content-center mt-2">Competitions</h1>
             <div className="mapComponent">
-                <MapComponent className='mapComp' />
+                <MapComponent  />
             </div>
         </div>
     );
