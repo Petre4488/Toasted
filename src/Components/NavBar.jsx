@@ -41,6 +41,10 @@ export default function NavBar() {
               <NavDropdown.Item href="#action/3.5">
                 About Us
               </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/dashboard">
+                Dashboard
+              </NavDropdown.Item>
             </NavDropdown>
             <LinkContainer to="/competitions">
                 <Nav.Link>Competitions</Nav.Link>
