@@ -45,9 +45,9 @@ export default function NavBar() {
               <NavDropdown.Item href="/dashboard">
                 Dashboard
               </NavDropdown.Item>
-              <NavDropdown.Item href="/login">
-                Login
-              </NavDropdown.Item>
+              <LinkContainer to="/login">
+                <Nav.Link>Login</Nav.Link>
+              </LinkContainer>
               <LinkContainer to="/signup">
                 <Nav.Link>SignUp</Nav.Link>
               </LinkContainer>
