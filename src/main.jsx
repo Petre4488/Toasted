@@ -10,9 +10,7 @@ import NavBar from './Components/NavBar';
 import Sponsors from './Pages/Sponsors';
 import Footer from './Components/Footer';
 import Dashboard from './Pages/Dashboard'
-import Login from './Pages/SignIn'
-import SignUp from './Pages/SignUp';
-import Profile from './Pages/Profile';
+import Login from './Pages/Authentification/SignIn'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -27,8 +25,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/profile" element={<Profile />} />
           </Routes>
           </div>
           <Footer />

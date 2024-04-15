@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { auth } from "../firebaseConfig";
+import { auth } from "../../firebaseConfig";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -14,7 +14,7 @@ const Login = () => {
 
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            navigate("./profile");
+            navigate("/profile");
         } catch {
             setNotice("You entered a wrong username or password.");
         }

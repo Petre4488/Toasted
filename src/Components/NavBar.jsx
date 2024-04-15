@@ -41,16 +41,6 @@ export default function NavBar() {
               <NavDropdown.Item href="#action/3.5">
                 About Us
               </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/dashboard">
-                Dashboard
-              </NavDropdown.Item>
-              <LinkContainer to="/login">
-                <Nav.Link>Login</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/signup">
-                <Nav.Link>SignUp</Nav.Link>
-              </LinkContainer>
             </NavDropdown>
             <LinkContainer to="/competitions">
                 <Nav.Link>Competitions</Nav.Link>
@@ -58,6 +48,13 @@ export default function NavBar() {
             <LinkContainer to="/sponsors">
                 <Nav.Link>Sponsors</Nav.Link>
             </LinkContainer>
+            <NavDropdown title="Dashboard" id="basic-nav-dropdown">
+            <NavDropdown.Item href="/dashboard">Dashboard</NavDropdown.Item>
+            <NavDropdown.Divider />
+              <NavDropdown.Item href="/login">
+                Login
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
